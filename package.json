@@ -1,12 +1,7 @@
 {
-  "name": "naive-ui-admin",
-  "version": "1.8.0",
-  "author": {
-    "name": "Ahjung",
-    "email": "735878602@qq.com",
-    "url": "https://github.com/jekip/naive-ui-admin"
-  },
+  "name": "vite-vue",
   "private": true,
+  "version": "0.0.0",
   "scripts": {
     "bootstrap": "yarn install",
     "serve": "npm run dev",
@@ -29,11 +24,11 @@
     "@vicons/ionicons5": "^0.10.0",
     "@vueup/vue-quill": "^1.0.0-beta.8",
     "@vueuse/core": "^5.3.0",
-    "axios": "^0.21.4",
     "blueimp-md5": "^2.19.0",
     "date-fns": "^2.28.0",
-    "echarts": "^5.3.1",
-    "element-resize-detector": "^1.2.4",
+    "ant-design-vue": "^2.2.8",
+    "axios": "^0.26.1",
+    "js-cookie": "^3.0.1",
     "lodash": "^4.17.21",
     "lodash-es": "^4.17.21",
     "mitt": "^2.1.0",

@@ -49,9 +49,10 @@ export default ({ command, mode }: ConfigEnv): UserConfig => {
     css: {
       preprocessorOptions: {
         less: {
-          modifyVars: {},
+          modifyVars: {
+            hack: `true; @import (reference) "${pathResolve('src/style/variables.less')}";`,
+          },
           javascriptEnabled: true,
-          additionalData: `@import "src/styles/var.less";`,
         },
       },
     },
